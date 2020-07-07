@@ -33,7 +33,7 @@ def password_list():
 #     return op_ql.search_all("SELECT TOP 1 FYQProductId FROM TYQProduct WHERE FYQMerchantLibraryId = '112229'")
 
 
-#  产品点击事件
+#  产品交易事件
 '''
 class TestCClickedComission:
 

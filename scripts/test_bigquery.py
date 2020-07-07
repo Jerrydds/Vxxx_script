@@ -33,7 +33,7 @@ def password_list():
 #     return op_ql.search_all("SELECT TOP 1 FYQProductId FROM TYQProduct WHERE FYQMerchantLibraryId = '112229'")
 
 
-#  产品点击事件
+#  产品曝光事件
 '''
 class TestBigQuery:
 
@@ -71,7 +71,7 @@ class TestBigQuery:
 '''
 
 
-# 广告商点击事件
+# 广告商曝光事件
 
 '''
 class TestBigQuery:
