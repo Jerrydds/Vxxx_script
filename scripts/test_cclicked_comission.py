@@ -38,7 +38,7 @@ def password_list():
 class TestCClickedComission:
 
     def setup(self):
-        self.url = 'http://root:17track@192.168.1.216:9200/deals.statistics.events/info/'
+        self.url = 'http://root:17track@192.168.1.216:9250/deals.statistics.events-2020-06/_doc/'
 
         self.data = {
           "ID": "ClickES_Comission-3838128107900185903_66583221267708" + str(random.randint(10000,99999)),
@@ -78,7 +78,7 @@ class TestCClickedComission:
 
 
     def setup(self):
-        self.url = 'http://root:17track@192.168.1.216:9200/deals.statistics.events/info/'
+        self.url = 'http://root:17track@192.168.1.216:9250/deals.statistics.events-2020-06/_doc/'
 
         self.data = {
           "ID": "ClickES_Comission-20200509-1" + str(random.randint(10000,99999)),
@@ -117,7 +117,7 @@ class TestCClickedComission:
 class TestCClickedComission:
 
     def setup(self):
-        self.url = 'http://root:17track@192.168.1.216:9200/deals.statistics.events/info/'
+        self.url = 'http://root:17track@192.168.1.216:9250/deals.statistics.events-2020-06/_doc/'
 
         self.data = {
           "ID": "ClickES_Comission-0_66583221267708" + str(random.randint(10000,99999)),

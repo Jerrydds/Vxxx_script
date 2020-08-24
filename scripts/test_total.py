@@ -37,7 +37,7 @@ def password_list():
 '''
     def setup(self):
 
-        self.url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        self.url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         self.data = {
             "Id": "376417286290268641G_66583221267708" + str(random.randint(10000,99999)),
@@ -96,7 +96,7 @@ def password_list():
 #  广告点击量
 '''
     def setup(self):
-        self.url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        self.url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         self.data = {
           "id": "0_66590246475873" + str(random.randint(10000,99999)),
@@ -159,7 +159,7 @@ class TestTotal:
 
 
     def setup(self):
-        self.url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        self.url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         self.data = {
           "id": "376417286290268641G_66590337091336" + str(random.randint(10000,99999)),

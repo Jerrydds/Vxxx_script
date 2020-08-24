@@ -24,7 +24,7 @@ def yqids_lists(num):
 
 def base_activate(yqid):
         
-    url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+    url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
     data = {
         "id": "3838128107900185903_66593211083047" + str(random.randint(10000,99999)),

@@ -5,7 +5,7 @@ from multiprocessing.dummy import Pool
 
 
 
-url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
 data = {
         "Id": "0_6658352426770876528",
@@ -77,7 +77,7 @@ class TestPrepare:
     def test_total_001(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -136,7 +136,7 @@ class TestPrepare:
     def test_total_002(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -194,7 +194,7 @@ class TestPrepare:
     def test_total_003(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -252,7 +252,7 @@ class TestPrepare:
     def test_total_004(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -310,7 +310,7 @@ class TestPrepare:
     def test_total_005(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -369,7 +369,7 @@ class TestPrepare:
     def test_total_006(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -428,7 +428,7 @@ class TestPrepare:
     def test_total_007(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -486,7 +486,7 @@ class TestPrepare:
     def test_total_008(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -545,7 +545,7 @@ class TestPrepare:
     def test_total_009(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -604,7 +604,7 @@ class TestPrepare:
     def test_total_010(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
@@ -664,7 +664,7 @@ class TestPrepare:
     def test_total_011(self, args):
         yqid = args["yqid"]
 
-        url = 'http://root:17track@192.168.1.216:9200/deals.statistics.click/info/'
+        url = 'http://root:17track@192.168.1.216:9250/deals.statistics.click/_doc/'
 
         data = {
             "Id": "0_66583221267708" + str(random.randint(10000,99999)),
