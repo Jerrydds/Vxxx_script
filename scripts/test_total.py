@@ -6,14 +6,14 @@ from multiprocessing.dummy import Pool
 import threading
 
 '''
-# 定义循环5次,生成0~9随机数
+# 定义循环5次,生成0~9随机数,组成5位数字符串
 def random_password():
     password = ""
     for i in range(5):
         password += str(random.randint(0, 9))
     return password
 
-# 定义循环10000次,生成5位随机数拼接到列表中
+# 定义循环1次,调用上面方法生成一个5位随机数拼接到列表中
 def password_list():
     passwords = list()
     for i in range(1):
@@ -25,7 +25,7 @@ def password_list():
 #     return op_ql.search_all("SELECT TOP 1 FYQProductId FROM TYQProduct WHERE FYQMerchantLibraryId = '112229'")
 '''
 
-# 定义循环10000次,生成5位随机数拼接到列表中
+# 定义循环1次,生成一个数拼接到列表中
 def password_list():
     nums = list()
     for i in range(1):
@@ -207,9 +207,12 @@ class TestTotal:
         }
 
 
-
+    # 方法传两参数, 最终结果返回一个参数值
     # @pytest.mark.parametrize("args", analyze_with_file_name("total", "test_total"))
+    # 遍历商家有多个产品数
     # @pytest.mark.parametrize("args", yqids_list())
+
+    # 同步执行-生成10条数据,每条用例跑一条数据, 以下装饰器作用充当了循环次数
     @pytest.mark.parametrize("password", password_list())
     def test_total_001(self, password):
         requests.post(url=self.url , json=self.data).json()
