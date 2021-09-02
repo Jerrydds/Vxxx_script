@@ -4,14 +4,14 @@ from base.connect_db import OperationMssql
 
 '''
 
-# 定义循环5次,生成0~9随机数
+# 定义循环5次,生成0~9随机数,组成5位数字符串
 def random_password():
     password = ""
     for i in range(5):
         password += str(random.randint(0, 9))
     return password
 
-# 定义循环10000次,生成5位随机数拼接到列表中
+# 定义循环1次,调用上面方法生成一个5位随机数拼接到列表中
 def password_list():
     passwords = list()
     for i in range(1):

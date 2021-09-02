@@ -4,14 +4,14 @@ from base.connect_db import OperationMssql
 
 '''
 
-# 定义循环5次,生成0~9随机数
+# 定义循环5次,生成0~9随机数,组成5位数字符串
 def random_password():
     password = ""
     for i in range(5):
         password += str(random.randint(0, 9))
     return password
 
-# 定义循环10000次,生成5位随机数拼接到列表中
+# 定义循环1次,调用上面方法生成一个5位随机数拼接到列表中
 def password_list():
     passwords = list()
     for i in range(1):
@@ -83,45 +83,45 @@ def base_activate(yqid):
     # @pytest.mark.parametrize("args", yqids_list())
     # @pytest.mark.parametrize("password", password_list())
 
+
 class TestPtotal:
-
-    @pytest.mark.parametrize("yqid",yqids_lists(0))
+    # 执行1000次数
+    @pytest.mark.parametrize("yqid", yqids_lists(0))
     def test_total_001(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(1000))
+    @pytest.mark.parametrize("yqid", yqids_lists(1000))
     def test_total_002(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(2000))
+    @pytest.mark.parametrize("yqid", yqids_lists(2000))
     def test_total_003(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(3000))
+    @pytest.mark.parametrize("yqid", yqids_lists(3000))
     def test_total_004(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(4000))
+    @pytest.mark.parametrize("yqid", yqids_lists(4000))
     def test_total_005(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(5000))
+    @pytest.mark.parametrize("yqid", yqids_lists(5000))
     def test_total_006(self, yqid):
         base_activate(yqid)
- 
-    @pytest.mark.parametrize("yqid",yqids_lists(6000))
+
+    @pytest.mark.parametrize("yqid", yqids_lists(6000))
     def test_total_007(self, yqid):
-     	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(7000))
+    @pytest.mark.parametrize("yqid", yqids_lists(7000))
     def test_total_008(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(8000))
+    @pytest.mark.parametrize("yqid", yqids_lists(8000))
     def test_total_009(self, yqid):
-    	base_activate(yqid)
+        base_activate(yqid)
 
-    @pytest.mark.parametrize("yqid",yqids_lists(9000))
+    @pytest.mark.parametrize("yqid", yqids_lists(9000))
     def test_total_010(self, yqid):
-    	base_activate(yqid)
-
+        base_activate(yqid)
