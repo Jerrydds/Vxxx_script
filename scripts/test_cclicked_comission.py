@@ -71,7 +71,7 @@ class TestCClickedComission:
 '''
 
 
-# 广告商点击事件
+# 广告商交易事件
 
 '''
 class TestCClickedComission:
